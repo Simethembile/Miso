@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;400;700&family=Poppins:wght@200&display=swap"
+  rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet">
+  <title>AMAHLE Portfolio</title>
+  </head>
+  <body>
+    <header>  
+      <div class="container">  
+        <nav class="flex items-centre justify-between navbarScroll"> 
+          <div class="left flex justfiy-right">
+              <a href="#home">Home</a>  
+              <a href="#about">About</a>
+              <a href="#services">Services</a>
+              <a href="#projects">Projects</a>
+          </div>
+          <div class="right">  
+          <a href="#contact"><button class="btn btn-primary">Contact</button></a>  
+          </div>
+        </nav>
+      </div>  
+    </header>
+    <div class="Miso" ><h2>Weather Forecast</h2>
+        <div id="weather-info">
+          <p>Loading...</p>
+        </div>
+    </div>
+    <div class="hero flex items-centre justify-between" id="home">
+      <div class="left flex-1 justify-center">
+         <img src="Amahle.jpeg" alt="Profile">
+      </div>
+      <div class="right flex-1">
+         <h6>AMAHLE MADLALA</h6>
+         <h1>I'm a Web<br> <span>Developer</span></h1>
+         <p>Currently doing a Level 4 Systems Development learnership at Dynamic DNA</p>
+         <div>
+         <a href="C:\Users\user\Desktop\Portfolio\Olivia.pdf" target="_blank"><button class="btn btn-secondary">DOWNLOAD CV</button></a>
+         </div>
+      </div>
+    </div>
+    <section id="about" class="about">
+        <div class="container flex items-centre">
+        <div class="left flex-1 justify-right">
+        <img src="mahle.jpg" height="400px" width="300px" alt="profile pic">
+        </div>
+        <div class="right flex-1">
+        <h1>About <span>Me</span></h1>
+        <h3>Hello! I'm Amahle.</h3>
+        <p>I am a keen, hard working, reliable and excellent time keeper. I am a bright and receptive person, able to communicate well with people at all levels. I am good at working using my own initiative and I am flexible in my approach to work duties. I have a good sense of humour and a pleasant approach.
+        </p>
+        <div class="socials">
+        <a href="https://www.facebook.com/profile.php?id=100010948543392"><img src="fb.png" width="40px"></a>
+        <a href="https://instagram.com/mahleigh73?igshid=OGQ5ZDc2ODk2ZA=="><img src="insta.png" width="40px"></a>
+        <a href="https://www.tiktok.com/@amahlemadlala4"><img src="tiktok.png" width="40px"></a>
+        </div>
+        </div>
+        </div>
+    </section>
+    <section id="services" class="services">
+        <div class="container">
+          <h1 class="services-head">Services</h1>
+          <p>All your digital needs... covered.</p>
+          <div class="card-grid">
+            <div class="card">
+              <img src="web.png">
+              <h2>App Development</h2>
+              <p><strong>50%</strong></p>
+            </div>
+            <div class="card">
+              <img src="app.png">
+              <h2>App Development</h2>
+              <p><strong>80%</strong></p>
+           </div>
+           <div class="card">
+              <img src="wri.png">
+              <h2>Content Writing</h2>
+              <p><strong>90%</strong></p>
+           </div>
+        </div>
+      </div>
+    </section>
+    <section id="contact">
+      <div class="container mt-3 contactContent">
+          <h1 class="text-center">Contact Me</h1>
+          <div class="row mt-4">
+              <div  class="col-lg-6">
+                   <div style="text-decoration:none; overflow:hidden;max-width:100%;width:500px;height:500px;"><div id="my-map-display" style="height:100%; width:100%;max-width:100%;"><iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=Johannesburg,+South+Africa&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"></iframe></div><a class="google-map-code-enabler" rel="nofollow" href="https://www.bootstrapskins.com/themes" id="grab-maps-authorization">premium bootstrap themes</a><style>#my-map-display .text-marker.map-generator{max-width: 100%; max-height: 100%; background: none;</style>
+                      <div id="embedmap-canvas" style="height:100%; width:100%;max-width:100%;">
+                          <iframe style="height:100%;width:100%;border:0;" frameborder="0" src="https://www.google.com/maps/embed/v1/place?q=new+york&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8">
+                          </iframe>
+                      </div>
+                      <a class="googlemaps-html" href="https://www.embed-map.com" id="get-data-forembedmap">https://www.embed-map.com</a>
+                      <style>#embedmap-canvas img{max-width:none!important;background:none!important;font-size: inherit;font-weight:inherit;}
+                      </style>
+                  </div>
+              </div>
+              <div class="col-lg-6" id="mahle" style="width:100%;" >
+                  <form action="https://formspree.io/f/xbjveeqn"
+                  method="POST">
+                    <ul>
+                     <li><input type="text" class="form-control form-control-lg" placeholder="Name"></li>
+                     <li><input type="email" class="form-control mt-3" placeholder="Email"></li>
+                     <li><input type="text" class="form-control mt-3" placeholder="Subject"></li>
+                     <li><div class="mb-3 mt-3">
+                        <textarea class="form-control" rows="5" id="comment" name="text" placeholder="Project Details"></textarea>
+                      </div></li>
+                   </ul>
+                  </form>
+                  <button type="submit"> MESSAGE</button>
+              </div>
+          </div>
+      </div>
+ </body>
+</html>
