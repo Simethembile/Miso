@@ -56,4 +56,5 @@ document.addEventListener('DOMContentLoaded', function () {
     const weatherInfoElement = document.getElementById('weather-info');
     weatherInfoElement.textContent = 'Unable to fetch weather information.';
   }
- 
+
+function toggle()
