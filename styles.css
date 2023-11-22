@@ -16,6 +16,8 @@
  header{
     background-color:var(--bgDark);
     clip-path: polygon(0 0, 100% 0, 100% 100%, 73% 94%, 0 100%);
+     position: fixed;
+    width: 100%;
 }
 header nav .left a{
     color: var(--white);
@@ -28,7 +30,7 @@ header nav .left a:hover{
     color: var(--primary);
 }
 header nav {
-    padding: 2rem 0;
+    padding: 1rem 0;
 }
     
 body{
