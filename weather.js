@@ -57,4 +57,3 @@ document.addEventListener('DOMContentLoaded', function () {
     weatherInfoElement.textContent = 'Unable to fetch weather information.';
   }
 
-function toggle()
