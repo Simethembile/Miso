@@ -188,4 +188,31 @@ section.services{
         display: flex;
         flex: 1;
     }
+@media only screen and (max-width: 600px) {
+    header {
+        clip-path: none;
+    }
+
+    header nav {
+        text-align: center;
+    }
+
+    header nav .left a {
+        display: block;
+        margin: 1rem 0;
+    }
+
+    .hero .left img {
+        width: 100%; /* thisss makes the image responsive */
+    }
+
+    .hero .right {
+        margin-top: 0;
+    }
+
+    section {
+        padding: 3rem;
+    }
+}
+
    
