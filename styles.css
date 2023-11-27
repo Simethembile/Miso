@@ -228,21 +228,3 @@ section.services .card-grid .card:hover p {
   display: flex;
   flex: 1;
 }
-
-@media only screen and (max-width: 600px) {
-  header {
-    clip-path: none;
-  }
-
-  header nav {
-    text-align: center;
-  }
-
-  header nav .left a {
-    display: block;
-    margin: 1rem 0;
-  }
-
-  .hero {
-    padding: 2rem;
-  }
