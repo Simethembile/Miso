@@ -56,9 +56,7 @@ body {
   background-color: black;
 }
 
-.hero .left img {
-  width: 100%; /* Make the image responsive */
-}
+
 
 .hero .right {
   color: var(--white);
